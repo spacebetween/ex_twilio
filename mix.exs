@@ -24,7 +24,7 @@ defmodule ExTwilio.Mixfile do
     [
       {:httpoison, ">= 0.9.0"},
       {:jason, "~> 1.2"},
-      {:inflex, "~> 2.0"},
+      {:inflex, github: "spacebetween/inflex"},
       {:joken, "~> 2.0"},
       {:dialyze, "~> 0.2.0", only: [:dev, :test]},
       {:mock, "~> 0.3", only: :test},
